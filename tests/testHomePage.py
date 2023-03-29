@@ -5,14 +5,12 @@ from manages.driverManages import get_driver
 from pages.homePage import HomePage
 from pages.landingPage import LandingPage
 from data.data import UrlData, MailData, ValueData
-from selenium.webdriver.common.action_chains import ActionChains
 
 @pytest.mark.usefixtures("driver_class")
 class TestHomePage(unittest.TestCase):
     def setUp(self) :
         self.driver = get_driver(self.volta.browser)
         self.driver.get(UrlData.home_page_url())
-        self.action = ActionChains(self.driver)
         self.window_before = self.driver.window_handles[0]
         self.home = HomePage(self.driver)
         self.landing = LandingPage(self.driver)
