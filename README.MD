@@ -1,5 +1,5 @@
 # Readme
-Hi there, I'm Pony, Quality Assurence. This code to test HomePage for Volta web and to practice automation test skills. I built this souce code using selenium tool and python programming language. My source code not only run automated test cases but also run cross-browser, generate report files, draw charts automatically. Below is the description and how to run the code
+Hi there, I'm Pony, Quality Assurance. This code to test HomePage for Volta web and to practice automation test skills. I built this souce code using selenium tool and python programming language. My source code not only run automated test cases but also run cross-browser, generate report files, draw charts automatically. Below is the description and how to run the code
 
 ## Require
  - Python 3 (new version)
